@@ -1,0 +1,67 @@
+form {
+  width: 90vw;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: var(--colorMain);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  /*border:2px solid cyan;*/
+}
+.label {
+  width: 80%;
+  height: 40px;
+  background: var(--background);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  padding-left: 10px;
+  color: var(--colorMain);
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px #566573, -2px -4px 5px black;
+}
+.text,
+.pass {
+  width: 90%;
+  height: auto;
+  padding-left: 10px;
+  margin-left: 5px;
+  margin: auto;
+  padding: auto;
+  border: none;
+  outline: none;
+  color: var(--colorMain);
+  /*border:2px solid red;*/
+  border-radius: 15px;
+  background: none;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.an,
+.other {
+  cursor: pointer;
+}
+input::placeholder {
+  color: var(--colorMain);
+}
+.fa-unlock {
+  cursor: pointer;
+  color: red;
+}
+.text:focus,
+.pass:focus {
+  color: aqua;
+}
+.error{
+  color:red;
+  font-size:12px;
+  width:70%;
+}
+input[type=submit] {
+  margin:20px auto;
+}

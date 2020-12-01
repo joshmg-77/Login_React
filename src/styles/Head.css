@@ -1,0 +1,77 @@
+.head {
+    width: 90vw;
+    margin: auto;
+    padding: 45px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .title {
+    width: 90%;
+    height: 20px;
+    margin-top: 10px;
+    /*border:2px solid orange;*/
+  }
+  .title2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2rem;
+    color: var(--colorMain);
+  }
+  .cont {
+    position:relative;
+   
+  }
+  .svg{
+    display:none;
+  }
+  /*Optional */
+  .svgo {
+    width: 80px;
+    height: 80px;
+    display:flex;
+    position:absolute;
+    top:0;
+    left:0;
+    transform: rotate(45deg) translateX(-15px) translatey(10px);
+    animation:animate 0.5s alternate infinite;  
+  }
+  @keyframes animate{
+    from{
+      transform:rotate(55deg) skewZ(5deg);
+    }
+    to{
+      transform: rotate(45deg) translateX(-15px) translatey(10px) skewX(10deg);    
+    }
+  }
+  .svg2{
+    width: 40px;
+    height: 80px;
+    display:flex;
+    position:absolute;
+    top:0;
+    left:0;
+    transform: rotate(-60deg) translateX(30px) translatey(40px);
+    animation:animate2 0.5s alternate infinite;
+    transition:all 1.5s ease;
+  }
+  @keyframes animate2{
+    from{
+      transform: rotate(-55deg) translateX(35px) translatey(45px);
+    }
+    to{
+        transform:rotate(-60deg) translateX(30px) translatey(40px);
+    }
+  }
+  /*end of fuck animation*/
+  .img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 15px #0c2614;
+  }
+  
+  

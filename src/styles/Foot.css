@@ -1,0 +1,41 @@
+.foot {
+  width: 90vw;
+  margin: 10px auto;
+  color: var(--colorMain);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  width: 75%;
+  height: 40px;
+  background: var(--background);
+  color: var(--colorMain);
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  box-shadow: 3px 5px 5px #566573, -2px -5px 5px black;
+  cursor: pointer;
+}
+
+.login:active {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: none;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0.6;
+  box-shadow: 3px 5px 5px rgba(255, 255, 255, 0.1),
+    -2px -5px 5px rgba(0, 0, 0, 0.6);
+}
+.last {
+  margin-bottom: 20px;
+}
+.more {
+  color: var(--colorMain);
+  margin: 5px;
+}
+.account {
+  margin: 10px;
+  text-decoration: none;
+  color: aqua;
+}

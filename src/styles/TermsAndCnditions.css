@@ -1,0 +1,26 @@
+.labelCheck {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: var(--colorMain);
+}
+.check {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  outline: none;
+  background-color: transparent;
+  color: silver;
+  border: 2px solid aqua;
+}
+.check:checked {
+  background: aqua;
+}
